@@ -9,3 +9,11 @@ https://www.mcielectronics.cl/shop/product/arduino-uno-r3-arduino-10230
 
 16x2 LCD Display I2C for Arduino
 https://www.mcielectronics.cl/shop/product/display-lcd-azul-i2c-para-arduino-27806
+
+
+| I2C LCD         | Arduino UNO     |
+| :-------------: | :-------------: |
+| GND             | GND (14)        |
+| VCC             | POWER 5V        |
+| SDA             | A4              |
+| SCL             | A5              |
