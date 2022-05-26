@@ -13,7 +13,7 @@ https://www.mcielectronics.cl/shop/product/display-lcd-azul-i2c-para-arduino-278
 
 | I2C LCD         | Arduino UNO     |
 | :-------------: | :-------------: |
-| GND             | GND (14)        |
+| GND             | POWER GND       |
 | VCC             | POWER 5V        |
 | SDA             | A4              |
 | SCL             | A5              |
