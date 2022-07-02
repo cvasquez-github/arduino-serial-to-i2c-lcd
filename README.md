@@ -12,15 +12,6 @@ Codigo de ejemplo simple para recivir comandos por puerto serial y escribir a un
 Este codigo utiliza la library LiquidCrystal_I2C:
 https://github.com/johnrickman/LiquidCrystal_I2C
 
-Arduino UNO R3:
-https://www.mcielectronics.cl/shop/product/arduino-uno-r3-arduino-10230
-
-Arduimo MEGA 2560:
-https://mcielectronics.cl/shop/product/arduino-mega-2560-r3-arduino-10231/
-
-16x2 LCD Display I2C for Arduino
-https://www.mcielectronics.cl/shop/product/display-lcd-azul-i2c-para-arduino-27806
-
 ![alt text](https://raw.githubusercontent.com/cvasquez-github/arduino-serial-to-i2c-lcd/main/arduino-lcd-diagram.png)
 
 | I2C LCD         | Arduino UNO     | Arduino MEGA 2560   |
@@ -29,3 +20,10 @@ https://www.mcielectronics.cl/shop/product/display-lcd-azul-i2c-para-arduino-278
 | VCC             | POWER 5V        | 5V (POWER)          |
 | SDA             | A4              | SDA (COMMUNICATION) |
 | SCL             | A5              | SCL (COMMUNICATION) |
+
+
+| Hardware        | URL             |
+| :-------------: | :-------------: |
+| Arduino UNO R3  | https://www.mcielectronics.cl/shop/product/arduino-uno-r3-arduino-10230 |
+| Arduino MEGA 2560  | https://mcielectronics.cl/shop/product/arduino-mega-2560-r3-arduino-10231/ |
+| Arduino 16x2 LCD Display I2C  | https://www.mcielectronics.cl/shop/product/display-lcd-azul-i2c-para-arduino-27806 |
