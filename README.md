@@ -10,6 +10,7 @@ https://www.mcielectronics.cl/shop/product/arduino-uno-r3-arduino-10230
 16x2 LCD Display I2C for Arduino
 https://www.mcielectronics.cl/shop/product/display-lcd-azul-i2c-para-arduino-27806
 
+![alt text](https://raw.githubusercontent.com/cvasquez-github/arduino-serial-to-i2c-lcd/main/arduino-lcd-diagram.png)
 
 | I2C LCD         | Arduino UNO     |
 | :-------------: | :-------------: |
