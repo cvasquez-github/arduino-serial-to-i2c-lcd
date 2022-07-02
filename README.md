@@ -15,9 +15,9 @@ https://www.mcielectronics.cl/shop/product/display-lcd-azul-i2c-para-arduino-278
 
 ![alt text](https://raw.githubusercontent.com/cvasquez-github/arduino-serial-to-i2c-lcd/main/arduino-lcd-diagram.png)
 
-| I2C LCD         | Arduino UNO     | Arduino MEGA 2560  |
-| :-------------: | :-------------: |
-| GND             | POWER GND       | GND (POWER)
-| VCC             | POWER 5V        | 5V (POWER)
-| SDA             | A4              | SDA (COMMUNICATION)
-| SCL             | A5              | SCL (COMMUNICATION)
+| I2C LCD         | Arduino UNO     | Arduino MEGA 2560   |
+| :-------------: | :-------------: | :-------------:     |
+| GND             | POWER GND       | GND (POWER)         |
+| VCC             | POWER 5V        | 5V (POWER)          |
+| SDA             | A4              | SDA (COMMUNICATION) |
+| SCL             | A5              | SCL (COMMUNICATION) |
