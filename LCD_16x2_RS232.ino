@@ -6,6 +6,12 @@ void setup() {
 Serial.begin(9600);
 lcd.init();
 lcd.backlight();
+
+lcd.setCursor(0, 0); 
+lcd.print("LCD READY");
+
+lcd.setCursor(0, 1); 
+lcd.print("Waiting...");
 }
 
 const unsigned int MAX_MESSAGE_LENGTH = 22;
@@ -63,6 +69,7 @@ void ExecuteCommand(String command)
   Serial.println("Valid command length\0");
   if (command.substring(0, 3)  == "LCD") //LCD MESSAGE
   {
+    Serial.println("LCD Command\0");
     char lcdCommand = command[3];
     if (command.length() > 4)
     {
@@ -70,10 +77,12 @@ void ExecuteCommand(String command)
     lcd.setCursor(0, lcdLine); 
     if (lcdCommand == 'W' && command.length() > 5) //Write
       {
+      Serial.println("LCD Write command\0");
       lcd.print(command.substring(5));
       }
     else if (lcdCommand == 'C') //Clear Line
       {
+      Serial.println("LCD Clear Line command\0");
       lcd.print("                                   ");
       }
     else 
@@ -85,6 +94,7 @@ void ExecuteCommand(String command)
     {
     if (lcdCommand == 'X') //Clear All Lines
       {
+      Serial.println("LCD Clear All Line command\0");
       lcd.clear();
       }
      else
