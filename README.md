@@ -1,7 +1,15 @@
 # arduino-serial-to-i2c-lcd
+
+[English]
 Simple code to receive commands from the serial port and write to an I2C 16x2 LCD display.
 
 This code uses the LiquidCrystal_I2C Library:
+https://github.com/johnrickman/LiquidCrystal_I2C
+
+[Español]
+Codigo de ejemplo simple para recivir comandos por puerto serial y escribir a una pantalla LCD I2C de 16x2.
+
+Este codigo utiliza la library LiquidCrystal_I2C:
 https://github.com/johnrickman/LiquidCrystal_I2C
 
 Arduino UNO R3:
